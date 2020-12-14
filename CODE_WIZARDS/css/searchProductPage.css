@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {margin: 0; padding: 0;}
+* {box-sizing: border-box;}
+
+
+body {
+    margin: 0;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+
+
+
+}
+
+
+
+    
+
+/*LION LOGO*/
+.logoLion{
+	float:left;
+	position: relative;
+	padding-left: 4px;
+  padding-top: 4px;
+  box-sizing: border-box;
+  border: 5px solid rgb(255, 208, 0);
+  margin-left: 6px;
+}
+
+
+
+
+
+/*MENU BAR 01*/
+.menuBar01{
+	background-color: #660000;
+    color: rgb(255, 255, 255);
+    padding-top:0px;
+    padding-bottom: 65px;
+}
+.menuBar01 .signInRegister{
+    float: right;
+    display: block;
+    padding-top: 20px;
+    padding-right: 12px;   
+}
+.menuBar01 .storeName{
+    float: left;
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.menuBar01 a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 135, 36);
+    text-decoration: underline;
+  }
+
+
+
+
+
+/*MENU BAR 02*/
+.menuBar02{
+	background-color: #660000;
+	text-align: left;
+  padding-left: 0%;
+  padding:6px;   
+}
+.menuBar02 ul{
+	display: inline-flex;
+	list-style: none;
+	color: antiquewhite;
+  padding-left: 5px;
+}
+.menuBar02 ul li{	
+	margin: 1px;
+	padding: 10px;
+  text-align: left;    
+}
+.menuBar02 ul li a{
+	text-decoration: none;
+	color: antiquewhite;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.menuBar02 ul li:hover{
+	background: #cc0000;
+  border-radius: 3px;	
+}
+.category{
+  display: none;	
+}
+.menuBar02 ul li:hover .category{
+	display: block;
+	position: absolute;
+	background-color: #990000;
+	margin-top: 12px;
+  margin-left: -12px;
+  z-index:4;  
+}
+.menuBar02 ul li:hover .category ul{
+	display: block;
+	margin: 1px;
+  padding-left: 0%;  
+}
+.menuBbar02 ul li:hover .category ul li{
+	width: 100px;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	border-radius: 0px;
+	text-align: left;
+}
+.menuBar02 ul li:hover .category ul li:last-child{
+	border-bottom: none;
+}
+.menuBar02 ul li:hover .category ul li a:hover{
+	color:#ff6666;
+}
+
+
+
+
+
+
+
+/*SEARCH BAR*/
+.searchBar {
+    float: right;
+    position: relative;  
+    z-index: 4;   
+  }  
+.searchBar input[type=text] {
+    padding: 6px;
+    margin-top: 0px;
+    font-size: 17px;
+    border: none;     
+    background-color: rgb(255, 255, 255) ;  
+    text-decoration-color:white;
+}  
+.searchBar button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 0px;
+    margin-right: 1px;
+    background: rgb(250, 134, 1);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+.searchBar button:hover {
+    background: rgb(255, 81, 0);
+  }
+  @media screen and (max-width: 600px) {
+    .searchBar {
+      float: none;
+    }
+    .searchBar input[type=text], .searchBar button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 100%;
+      padding: 14px;
+      border: 1px solid #ccc;
+    }
+    .searchBar input[type=text] {
+        border: 1px solid #ccc; 
+        float: left; 
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.productSlider01{
+    float: left;
+    position: relative;
+    margin-top: 20px;
+
+
+}
+
+
+.productSlider02{
+  float: left;
+  position: relative;
+  margin-top: 50px;
+  
+
+} 
+
+.mainHeading{
+  float: left;
+  
+}
+
+.subHeading{
+  float: right;
+}
+
+.sliderContainer{
+  float: left;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    padding: 6.4px;
+    background-color: white;
+    
+
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }

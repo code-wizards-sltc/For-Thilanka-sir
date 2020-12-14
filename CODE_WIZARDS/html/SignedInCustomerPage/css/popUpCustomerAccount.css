@@ -1,0 +1,63 @@
+.customerCard {
+  display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  z-index: 5;
+
+  box-sizing: border-box;
+  position: absolute;
+  background-attachment: fixed;
+  background-color: aliceblue;
+  bottom: 14.5;
+  right: 1px;
+  
+}
+
+.customerCard .cORs {
+  color: grey;
+  font-size: 18px;
+}
+
+
+
+.customerCard a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.customerCard button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+
+.ccbtn01{
+  background-color: rgb(0, 0, 0);
+  color: white;
+
+  border: none;
+  cursor: pointer;
+ 
+  padding: 16px 75px;
+
+}
+
+
+
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}

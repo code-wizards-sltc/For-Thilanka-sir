@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {margin: 0; padding: 0;}
+
+
+
+body {
+	font-family: montserrat, arial, verdana;
+}
+
+
+
+
+
+
+.logoLion{
+	float:left;
+	position: relative;
+	padding-left: 7px;
+	padding-top: 3px;
+
+}
+
+
+
+
+
+
+
+.menuBar{
+	background-color: #000000;
+	text-align: left;
+	padding-left: 0%;
+	padding-bottom: 5px;
+	
+}
+
+.menuBar ul{
+	display: inline-flex;
+	list-style: none;
+	color: antiquewhite;
+	padding-left: 5px;
+	
+}
+
+.menuBar ul li{	
+	margin: 1px;
+	padding: 10px;
+	text-align: left;
+}
+
+.menuBar ul li a{
+	text-decoration: none;
+	color: antiquewhite;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.menuBar ul li:hover{
+	background: #2b2a2a;
+	border-radius: 3px;		
+}
+
+
+
+
+
+
+
+
+
+.myAccBtn {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #2c2b2b;
+	color: white;
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;		
+  }
+  
+  .signIn {
+	position: relative;
+	display: block;
+	padding-right: 3px;
+	padding-top: 0.15%;
+	float: right;
+  }
+  
+  .signIn:hover .signInBtn {
+	background-color: #3f3e3e;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eCPHeader{
+    position: relative;
+    text-align: center;
+    padding-top: 7%;
+}
+
+
+.leftPart{  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    float: left;
+    padding-bottom: 15px;
+    margin-left: 18.5%;   
+}
+
+
+.leftPart .cPPHeader{
+    text-align: center;    
+}
+
+
+.leftPart .customerProfilePic{
+    max-width: 300px;
+}
+
+
+.leftPart .cPPBtn01{
+    margin-top: 5%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;   
+    padding: 16px 105px;
+}
+
+
+
+.cPPHeader02{
+    text-align: center;    
+}
+
+
+.rightPart{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);    
+    float: left; 
+    margin-left: 1%;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 0px 40px ;
+    text-align: left;    
+}
+
+input[type=text], select {
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+
+input[type=submit], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
